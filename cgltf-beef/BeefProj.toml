@@ -1,0 +1,12 @@
+FileVersion = 1
+
+[Project]
+Name = "cgltf-beef"
+TargetType = "BeefLib"
+StartupObject = "cgltf.Program"
+DefaultNamespace = "cgltf"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"
+LibPaths = ["$(ProjectDir)/dist/Debug-Win64/cgltf.lib"]
+PreprocessorMacros = ["DEBUG", "USE_SPAN"]

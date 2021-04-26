@@ -1,0 +1,9 @@
+FileVersion = 1
+Dependencies = {corlib = "*", cgltf-beef = "*"}
+
+[Project]
+Name = "cgltf-beef-test"
+StartupObject = "cgltf_beef_test.Program"
+
+[Configs.Debug.Win64]
+CLibType = "DynamicDebug"

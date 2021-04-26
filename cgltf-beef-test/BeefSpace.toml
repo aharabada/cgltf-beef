@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {cgltf-beef = {Path = "../cgltf-beef"}, cgltf-beef-test = {Path = "."}}
+
+[Workspace]
+StartupProject = "cgltf-beef-test"
