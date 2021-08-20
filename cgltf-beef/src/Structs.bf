@@ -521,8 +521,8 @@ namespace cgltf
 		public struct Animation {
 		    public char8* Name;
 #if USE_SPAN
-			public Span<AnimationSampler*> Samplers;
-			public Span<AnimationChannel*> Channels;
+			public Span<AnimationSampler> Samplers;
+			public Span<AnimationChannel> Channels;
 #else
 		    public AnimationSampler* Samplers;
 		    public uint SamplersCount;
