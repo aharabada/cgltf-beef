@@ -51,6 +51,7 @@ namespace cgltf
 		    public uint Size;
 		    public char8* Uri;
 		    public void* Data; /* loaded by cgltf_load_buffers */
+			public DataFreeMethod DataFreeMethod;
 		    public Extras Extras;
 		    public uint ExtensionsCount;
 		    public Extension* Extensions;

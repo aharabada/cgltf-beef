@@ -116,6 +116,13 @@ namespace cgltf
 			Spot,
 		}
 
+		public enum DataFreeMethod : int32
+		{
+			None,
+			FileRelease,
+			MemoryFree,
+		}
+
 		public enum MeshoptCompressionMode : int32
 		{
 			Invalid,
